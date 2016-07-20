@@ -7,7 +7,7 @@ fallen_empire_1 = {
 		create_species = {
 			name = "First Born"
 			class = "MAM"
-			portrait = texturefile = { "gfx/portraits/firstones/firstborn_lorien.dds"}
+			portrait = "gfx/portraits/firstones/firstborn_lorien.dds"
 			traits = random
 		}
 		create_country = {
