@@ -35,8 +35,8 @@ vorlon = {
 	
 	empire_flag={
 		icon={
-			category="ornate"
-			file="flag_ornate_21.dds"
+			category="babylon5"
+			file="vorlon_flag.dds"
 		}
 		background={
 			category="backgrounds"

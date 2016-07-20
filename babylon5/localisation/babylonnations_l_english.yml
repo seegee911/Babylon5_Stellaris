@@ -1,6 +1,8 @@
 ﻿l_english:
 
  BBL:0 "Babylon 5 Nations"
+ 
+ FLAG_CATEGORY_babylon5:0 "Babylon 5"
 
 #ALLIANCE_PREFIX_01:0 "League of"
 #ALLIANCE_PREFIX_02:0 "Provisional"

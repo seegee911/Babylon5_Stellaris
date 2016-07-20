@@ -38,7 +38,7 @@ centauri = {
 	empire_flag={
 		icon={
 			category="babylon5"
-			file="centauri.dds"
+			file="centauri_flag.dds"
 		}
 		background={
 			category="backgrounds"

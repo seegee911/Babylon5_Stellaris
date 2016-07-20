@@ -21,7 +21,7 @@ earthalliance = {
 	empire_flag={
 		icon={
 			category="babylon5"
-			file="ea.dds"
+			file="earthalliance_flag.dds"
 		}
 		background={
 			category="backgrounds"

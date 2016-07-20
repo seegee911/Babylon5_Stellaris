@@ -37,8 +37,8 @@ narn = {
 	
 	empire_flag={
 		icon={
-			category="blocky"
-			file="flag_blocky_2.dds"
+			category="babylon5"
+			file="narn_flag.dds"
 		}
 		background={
 			category="backgrounds"
