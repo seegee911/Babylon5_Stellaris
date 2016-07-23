@@ -1,6 +1,7 @@
 portraits = {
-	centauri_londo = { texturefile = "gfx/portraits/centauri/centauri_londo_mollari_1.dds"}
-	centauri_timov = { texturefile = "gfx/portraits/centauri/centauri_timov_1.dds"}
+	centauri_londo_1 = { texturefile = "gfx/portraits/centauri/centauri_londo_mollari_1.dds"}
+	centauri_timov_1 = { texturefile = "gfx/portraits/centauri/centauri_timov_1.dds"}
+	#centauri_vir_1 = { texturefile = "gfx/portraits/centauri/centauri_vir_cotto_1.dds"}
 #	narn_civ = { texturefile = "gfx/portraits/narn/narn_civ_1.dds"}
 #	narn_mil = { texturefile = "gfx/portraits/narn/narn_mil_1.dds"}
 #	narn_arm = { texturefile = "gfx/portraits/narn/narn_arm_1.dds"}
@@ -9,14 +10,14 @@ portraits = {
 }
 portrait_groups = {
 	centauri = {
-		default = centauri_londo
+		default = centauri_londo_1
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			add = {
 				trigger = {
 					ruler = { gender = male }
 				}
 				portraits = {
-					centauri_londo
+					centauri_londo_1
 				}
 			}
 			add = {
@@ -24,7 +25,7 @@ portrait_groups = {
 					ruler = { gender = female }
 				}
 				portraits = {
-					centauri_timov
+					centauri_timov_1
 				}
 			}
 			#set = {
@@ -69,7 +70,8 @@ portrait_groups = {
 					gender = male
 				}
 				portraits = {
-					centauri_londo
+					centauri_londo_1
+					centauri_vir_1
 				}
 			}
 		}
@@ -82,7 +84,7 @@ portrait_groups = {
 					gender = female
 				}
 				portraits = {
-					human_female_02
+					centauri_timov_1
 				}
 			}
 			add = {
@@ -90,7 +92,7 @@ portrait_groups = {
 					gender = male
 				}
 				portraits = {
-					centauri_londo
+					centauri_londo_1
 				}
 			}
 		}

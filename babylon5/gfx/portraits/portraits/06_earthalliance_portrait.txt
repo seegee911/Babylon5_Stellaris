@@ -1,15 +1,19 @@
 portraits = {
 # Rulers
-	earthalliance_luchenko = { texturefile = "gfx/portraits/earthalliance/earthalliance_susanna_luchenko_1.dds"}
-	earthalliance_santiago = { texturefile = "gfx/portraits/earthalliance/earthalliance_luis_santiago_1.dds"}
-#	earthalliance_clark = { texturefile = "gfx/portraits/earthalliance/earthalliance_william_clark_1.dds"}
+	earthalliance_luchenko_1 = { texturefile = "gfx/portraits/earthalliance/earthalliance_susanna_luchenko_1.dds"}
+	earthalliance_santiago_1 = { texturefile = "gfx/portraits/earthalliance/earthalliance_luis_santiago_1.dds"}
+#	earthalliance_clark_1 = { texturefile = "gfx/portraits/earthalliance/earthalliance_william_clark_1.dds"}
 
 # Leaders
-	earthalliance_ivanova = { texturefile = "gfx/portraits/earthalliance/earthalliance_susan_ivanova_1.dds"}
-	earthalliance_sheridan = { texturefile = "gfx/portraits/earthalliance/earthalliance_john_sheridan_1.dds"}
-	earthalliance_garibaldi = { texturefile = "gfx/portraits/earthalliance/earthalliance_michael_garibaldi_1.dds"}
-	earthalliance_franklin = { texturefile = "gfx/portraits/earthalliance/earthalliance_stephen_franklin_1.dds"}
-
+	earthalliance_ivanova_1 = { texturefile = "gfx/portraits/earthalliance/earthalliance_susan_ivanova_1.dds"}
+	earthalliance_ivanova_2 = { texturefile = "gfx/portraits/earthalliance/earthalliance_susan_ivanova_2.dds"}
+	earthalliance_sheridan_1 = { texturefile = "gfx/portraits/earthalliance/earthalliance_john_sheridan_1.dds"}
+	earthalliance_sheridan_2 = { texturefile = "gfx/portraits/earthalliance/earthalliance_john_sheridan_2.dds"}
+	earthalliance_garibaldi_1 = { texturefile = "gfx/portraits/earthalliance/earthalliance_michael_garibaldi_1.dds"}
+	earthalliance_garibaldi_2 = { texturefile = "gfx/portraits/earthalliance/earthalliance_michael_garibaldi_2.dds"}
+	earthalliance_franklin_1 = { texturefile = "gfx/portraits/earthalliance/earthalliance_stephen_franklin_1.dds"}
+	earthalliance_franklin_2 = { texturefile = "gfx/portraits/earthalliance/earthalliance_stephen_franklin_2.dds"}
+	
 # Pops
 #	earthalliance_civ = { texturefile = "gfx/portraits/earthalliance/earthalliance_civ_1.dds"}
 #	earthalliance_mil = { texturefile = "gfx/portraits/earthalliance/earthalliance_mil_1.dds"}
@@ -20,15 +24,15 @@ portraits = {
 }
 portrait_groups = {
 	earthalliance = {
-		default = earthalliance_santiago
+		default = earthalliance_santiago_1
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			add = {
 				trigger = {
 					ruler = { gender = male }
 				}
 				portraits = {
-					earthalliance_santiago
-					#earthalliance_clark
+					earthalliance_santiago_1
+					#earthalliance_clark_1
 				}
 			}
 			add = {
@@ -36,7 +40,7 @@ portrait_groups = {
 					ruler = { gender = female }
 				}
 				portraits = {
-					earthalliance_luchenko
+					earthalliance_luchenko_1
 				}
 			}
 			#set = {
@@ -78,7 +82,8 @@ portrait_groups = {
 					gender = female
 				}
 				portraits = {
-					earthalliance_ivanova
+					earthalliance_ivanova_1
+					earthalliance_ivanova_2
 				}
 			}
 			add = {
@@ -86,9 +91,12 @@ portrait_groups = {
 					gender = male
 				}
 				portraits = {
-					earthalliance_garibaldi
-					earthalliance_sheridan
-					earthalliance_franklin
+					earthalliance_garibaldi_1
+					earthalliance_sheridan_1
+					earthalliance_franklin_1
+					earthalliance_garibaldi_2
+					earthalliance_sheridan_2
+					earthalliance_franklin_2
 				}
 			}
 		}
@@ -101,7 +109,7 @@ portrait_groups = {
 					gender = female
 				}
 				portraits = {
-					earthalliance_luchenko
+					earthalliance_luchenko_1
 				}
 			}
 			add = {
@@ -109,7 +117,7 @@ portrait_groups = {
 					gender = male
 				}
 				portraits = {
-					earthalliance_santiago
+					earthalliance_santiago_1
 				}
 			}
 		}

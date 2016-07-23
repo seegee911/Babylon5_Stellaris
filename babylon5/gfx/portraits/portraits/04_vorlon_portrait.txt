@@ -1,18 +1,20 @@
 portraits = {
-	vorlon_kosh = { texturefile = "gfx/portraits/vorlon/vorlon_kosh_1.dds"}
-	vorlon_civ = { texturefile = "gfx/portraits/vorlon/vorlon_civ_1.dds"}
-	vorlon_mil = { texturefile = "gfx/portraits/vorlon/vorlon_mil_1.dds"}
-	vorlon_arm = { texturefile = "gfx/portraits/vorlon/vorlon_arm_1.dds"}
-	vorlon_gov = { texturefile = "gfx/portraits/vorlon/vorlon_gov_1.dds"}
-	vorlon_sci = { texturefile = "gfx/portraits/vorlon/vorlon_sci_1.dds"}
+	vorlon_kosh_1 = { texturefile = "gfx/portraits/vorlon/vorlon_kosh_1.dds"}
+	vorlon_kosh_2 = { texturefile = "gfx/portraits/vorlon/vorlon_kosh_2.dds"}
+	vorlon_civ_1 = { texturefile = "gfx/portraits/vorlon/vorlon_civ_1.dds"}
+	vorlon_mil_1	= { texturefile = "gfx/portraits/vorlon/vorlon_mil_1.dds"}
+	vorlon_arm_1 = { texturefile = "gfx/portraits/vorlon/vorlon_arm_1.dds"}
+	vorlon_gov_1 = { texturefile = "gfx/portraits/vorlon/vorlon_gov_1.dds"}
+	vorlon_sci_1 = { texturefile = "gfx/portraits/vorlon/vorlon_sci_1.dds"}
 }
 portrait_groups = {
 	vorlon = {
-		default = vorlon_kosh
+		default = vorlon_kosh_1
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			add = {
 				portraits = {
-					vorlon_kosh
+					vorlon_kosh_1
+					vorlon_kosh_2
 				}
 			}
 		}		
@@ -21,7 +23,7 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			set = {
 				portraits = {
-					vorlon_civ
+					vorlon_civ_1
 				}
 			}
 		}		
@@ -30,7 +32,7 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					vorlon_civ
+					vorlon_civ_1
 				}
 			}
 		}
@@ -42,7 +44,7 @@ portrait_groups = {
 					gender = male
 				}
 				portraits = {
-					vorlon_civ
+					vorlon_civ_1
 				}
 			}
 			
@@ -51,7 +53,7 @@ portrait_groups = {
 					leader_class = general
 				}
 				portraits = {
-					vorlon_arm
+					vorlon_arm_1
 				}
 			}
 			
@@ -60,7 +62,7 @@ portrait_groups = {
 					leader_class = admiral
 				}
 				portraits = {
-					vorlon_mil
+					vorlon_mil_1
 				}
 			}
 			
@@ -69,7 +71,7 @@ portrait_groups = {
 					leader_class = scientist
 				}
 				portraits = {
-					vorlon_sci
+					vorlon_sci_1
 				}
 			}
 			
@@ -78,7 +80,7 @@ portrait_groups = {
 					leader_class = governor
 				}
 				portraits = {
-					vorlon_gov
+					vorlon_gov_1
 				}
 			}
 			
@@ -87,7 +89,7 @@ portrait_groups = {
 					leader_class = ruler
 				}
 				portraits = {
-					vorlon_kosh
+					vorlon_kosh_1
 				}
 			}
 		}
@@ -97,7 +99,7 @@ portrait_groups = {
 		ruler = {
 			add = {
 				portraits = {
-					vorlon_kosh
+					vorlon_kosh_1
 				}
 			}
 		}

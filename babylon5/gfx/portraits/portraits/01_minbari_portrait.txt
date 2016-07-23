@@ -1,7 +1,8 @@
 portraits = {
-	minbari_delenn = { texturefile = "gfx/portraits/minbari/minbari_delenn_1.dds"}
-	minbari_dukhat = { texturefile = "gfx/portraits/minbari/minbari_dukhat_1.dds"}
-	minbari_lennier = { texturefile = "gfx/portraits/minbari/minbari_lennier_1.dds"}
+	minbari_delenn_1= { texturefile = "gfx/portraits/minbari/minbari_delenn_1.dds"}
+	minbari_delenn_2= { texturefile = "gfx/portraits/minbari/minbari_delenn_2.dds"}
+	minbari_dukhat_1 = { texturefile = "gfx/portraits/minbari/minbari_dukhat_1.dds"}
+	minbari_lennier_1 = { texturefile = "gfx/portraits/minbari/minbari_lennier_1.dds"}
 #	minbari_civ = { texturefile = "gfx/portraits/minbari/minbari_civ_1.dds"}
 #	minbari_mil = { texturefile = "gfx/portraits/minbari/minbari_mil_1.dds"}
 #	minbari_arm = { texturefile = "gfx/portraits/minbari/minbari_arm_1.dds"}
@@ -10,14 +11,15 @@ portraits = {
 }
 portrait_groups = {
 	minbari = {
-		default = minbari_delenn
+		default = minbari_delenn_1
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			add = {
 				trigger = {
 					ruler = { gender = male }
 				}
 				portraits = {
-					minbari_dukhat
+					minbari_dukhat_1
+					minbari_lennier_1
 				}
 			}
 			add = {
@@ -25,7 +27,7 @@ portrait_groups = {
 					ruler = { gender = female }
 				}
 				portraits = {
-					minbari_delenn
+					minbari_delenn_1
 				}
 			}
 			#set = {
@@ -62,7 +64,7 @@ portrait_groups = {
 					gender = female
 				}
 				portraits = {
-					minbari_delenn
+					minbari_delenn_1
 				}
 			}
 			add = {
@@ -70,7 +72,7 @@ portrait_groups = {
 					gender = male
 				}
 				portraits = {
-					minbari_lennier
+					minbari_lennier_1
 				}
 			}
 		}
@@ -83,7 +85,7 @@ portrait_groups = {
 					gender = female
 				}
 				portraits = {
-					minbari_delenn
+					minbari_delenn_1
 				}
 			}
 			add = {
@@ -91,7 +93,7 @@ portrait_groups = {
 					gender = male
 				}
 				portraits = {
-					minbari_dukhat
+					minbari_dukhat_1
 				}
 			}
 		}

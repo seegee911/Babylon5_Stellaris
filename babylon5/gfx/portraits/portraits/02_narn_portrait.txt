@@ -1,6 +1,6 @@
 portraits = {
-	narn_gkar = { texturefile = "gfx/portraits/narn/narn_gkar_1.dds"}
-	narn_natoth = { texturefile = "gfx/portraits/narn/natoth_1.dds"}
+	narn_gkar_1 = { texturefile = "gfx/portraits/narn/narn_gkar_1.dds"}
+	narn_natoth_1 = { texturefile = "gfx/portraits/narn/narn_natoth_1.dds"}
 #	narn_civ = { texturefile = "gfx/portraits/narn/narn_civ_1.dds"}
 #	narn_mil = { texturefile = "gfx/portraits/narn/narn_mil_1.dds"}
 #	narn_arm = { texturefile = "gfx/portraits/narn/narn_arm_1.dds"}

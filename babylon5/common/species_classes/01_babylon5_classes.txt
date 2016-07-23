@@ -4,8 +4,100 @@
 # can specify playable=no to disable people from picking specified class.
 # can specify randomized=no to filter specified class from randomization.
 
+#BABYLON5 = {
+#	custom_portraits = {
+#		portraits = {
+#			
+#			
+#			"centauri"
+#			"earthalliance"
+#			"shadow"
+#			"vorlon"
+#			"narn"
+#		}
+#	}
+#}
+
+EARTHALLIANCE = {
+	custom_portraits = {
+		portraits = {
+			earthalliance_santiago_1
+			earthalliance_luchenko_1
+			earthalliance_ivanova_1
+			earthalliance_ivanova_2
+			earthalliance_sheridan_1
+			earthalliance_sheridan_2
+			earthalliance_garibaldi_1
+			earthalliance_garibaldi_2
+			earthalliance_franklin_1
+			earthalliance_franklin_2
+		}
+	}
+	graphical_culture="mammalian_01"
+	#city_graphical_culture="mammalian_01"
+}
+
+MINBARI = {
+	custom_portraits = {
+		portraits = {
+			minbari_delenn_1
+			minbari_delenn_2
+			minbari_dukhat_1
+			minbari_lennier_1
+		}
+	}
+	graphical_culture="fungoid_01"
+	#city_graphical_culture="avian_01"
+}
+
+CENTAURI = {
+	custom_portraits = {
+		portraits = {
+			centauri_londo_1
+			centauri_timov_1
+			#centauri_vir_1
+		}
+	}
+	graphical_culture="arthropoid_01"
+	#city_graphical_culture="mammalian_01"
+}
+
+NARN = {
+	custom_portraits = {
+		portraits = {
+			narn_gkar_1
+			narn_natoth_1
+		}
+	}
+	graphical_culture="reptilian_01"
+	#city_graphical_culture="reptilian_01"
+}
+
+SHADOW = {
+	custom_portraits = {
+		portraits = {
+			shadow_mother_1
+			shadow_morden_1
+		}
+	}
+	graphical_culture="avian_01"
+	#city_graphical_culture="arthropoid_01"
+}
+
+VORLON = {
+	custom_portraits = {
+		portraits = {
+			vorlon_kosh_1
+			vorlon_kosh_2
+		}
+	}
+	graphical_culture="molluscoid_01"
+	#city_graphical_culture="fungoid_01"
+}
+
+
 MAM = {
-		custom_portraits = {
+	custom_portraits = {
 		portraits = {
 			"minbari"
 			"centauri"
